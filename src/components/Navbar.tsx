@@ -15,13 +15,13 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8 text-[#A0A0B8] text-base items-center">
-          <a href="/#features" className="hover:text-[#FF4E8C] transition">
+          <a href="#features" className="hover:text-[#FF4E8C] transition">
             Features
           </a>
-          <a href="/#stories" className="hover:text-[#FF4E8C] transition">
+          <a href="#stories" className="hover:text-[#FF4E8C] transition">
             Stories
           </a>
-          <a href="/#chat" className="hover:text-[#FF4E8C] transition">
+          <a href="#chat" className="hover:text-[#FF4E8C] transition">
             Messaging
           </a>
         </div>
@@ -47,21 +47,21 @@ export default function Navbar() {
       {menuOpen && (
         <div className="md:hidden px-[5%] pb-5 flex flex-col gap-4 text-[#A0A0B8] bg-[#0D0D14]">
           <a
-            href="/#features"
+            href="#features"
             className="hover:text-[#FF4E8C] transition"
             onClick={() => setMenuOpen(false)}
           >
             Features
           </a>
           <a
-            href="/#stories"
+            href="#stories"
             className="hover:text-[#FF4E8C] transition"
             onClick={() => setMenuOpen(false)}
           >
             Stories
           </a>
           <a
-            href="/#chat"
+            href="#chat"
             className="hover:text-[#FF4E8C] transition"
             onClick={() => setMenuOpen(false)}
           >

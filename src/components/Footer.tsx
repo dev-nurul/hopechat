@@ -1,5 +1,3 @@
-import { Link } from "react-router";
-
 const brand = "#FF4E8C";
 
 export function Footer() {
@@ -20,9 +18,9 @@ export function Footer() {
         <a href="/privacy-policy/#overview" className="hover:text-[#FF4E8C] transition">
           Terms
         </a>
-        <Link to="/request-delete-account" className="hover:text-[#FF4E8C] transition">
+        <a href="/request-delete-account/" className="hover:text-[#FF4E8C] transition">
           Delete Account
-        </Link>
+        </a>
         <a href="/privacy-policy/#contact" className="hover:text-[#FF4E8C] transition">
           Support
         </a>
